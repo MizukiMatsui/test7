@@ -1,0 +1,365 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+ /*common*/
+ .frame{
+   width:80%;
+   margin:0 auto;
+   /*background-color: rgba(255, 0, 0, 0.2);*/
+   /*height:10000px;*/
+ }
+
+ body {
+   font-family: "arial unicode ms";
+ }
+
+ .whiteNon{
+   color: white;
+ }
+ .whiteNon:hover{
+   color: white;
+ }
+ .whiteNon:active{
+   color: white;
+ }
+
+ .btnMore{
+   font-size: 20px;
+   padding: 5px 50px;
+   width:160px;
+   /*margin: 0 auto;*/
+   background-color: black;
+   letter-spacing: 5px;
+   border-radius: 50px;
+ }
+
+ .btnMore .fas{
+   font-size: 25px;
+ }
+
+.more {
+	display: inline-block;
+	width:40px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+
+ /*トップ*/
+ .top{
+   height:700px;
+   background-color: blue;
+   background-image:url(../image/eye_back01.png);
+   background-size: cover;
+   text-align: center;
+ }
+ .copy{
+   padding-top: 270px;
+ }
+ .top h1{
+   color: white;
+   font-size: 22px;
+   text-align: center;
+   line-height: 29px;
+   letter-spacing: 5px;
+ }
+ .logo{
+  width: 300px;
+  margin-top: 30px;
+ }
+ /*ニュース*/
+.news {
+	background-image: url(../image/back01.png);
+	background-size: cover;
+
+}
+
+ .frame .newsframes{
+	 width: 70%;
+	 margin: 50px auto 20px auto;
+   /*height: 300px;*/
+   /*background-color: rgba(0, 0, 255, 0.2);*/
+
+ }
+.news i{
+  font-size: 35px;
+  padding-left:15px;
+}
+.news p{
+  font-size: 20px;
+}
+.date{
+  padding:0 10px;
+  position: relative;
+  bottom: 5px;
+}
+
+.title{
+  position: relative;
+  bottom: 5px;
+}
+
+.newsframe{
+  padding:10px 0;
+  margin-bottom:15px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  display:inline-block;
+  width:100%;
+}
+.newsCont{
+color: black;
+}
+.newsCont:hover{
+  color: black;
+}
+.newsCont:active{
+  color: black;
+}
+.news1{
+  background-color:#7bc2ce;
+}
+.news2{
+  background-color:#7bc2ce;
+}
+.news3{
+  background-color:#eeefef;
+}
+.newsCont{
+  display:inline-block;
+}
+
+
+ /*コンテンツ*/
+.contents{
+  /*background-color: rgba(0, 0, 255, 0.2);*/
+  background-image: url(../image/back02.png);
+  background-size: cover;
+
+}
+.tiles{
+  margin-bottom:10px;
+}
+
+ .tile50{
+   width:50%;
+   /*height:600px;*/
+   /*background-color: rgba(0,0,200,0.3);*/
+   float: left;
+   padding:20px 20px 0px 20px;
+   box-sizing: border-box;
+ }
+
+ .tile33{
+   width:33.333333%;
+   /*height:400px;*/
+   /*background-color: rgba(0,0,200,0.3);*/
+   float: left;
+   padding:20px 20px 0px 20px;
+   box-sizing: border-box;
+ }
+
+ .thumbnail{
+   width:100%;
+   border-radius: 10px;
+ }
+
+.contents .title{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding:30px 0px 50px 0px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+.title:hover{
+  color: black;
+}
+.title:active{
+  color: black;
+}
+ /*アバウト*/
+
+ .about{
+	 background-color: #43adc5;
+ }
+ .aboutframe{
+padding-top: 40px;
+margin: 0 20px;
+
+ }
+ .aboutPhoto{
+	 width:23%;
+	 margin-right: 10px;
+	 border-radius: 10px;
+ }
+ .aboutTexts{
+	 color: white;
+	 width:48%;
+	 display: inline-block;
+	 padding-top: 40px;
+	 padding-left: 20px;
+ }
+ .aboutTexts h3{
+	 font-size: 21px;
+	 letter-spacing: 3px;
+	 padding-bottom: 20px;
+   line-height: 25px;
+ }
+ .aboutTexts p{
+	 margin-bottom: 10px;
+	 line-height: 18px;
+ }
+ .twbtn{
+	 color: #43adc5;
+	 display: inline-block;
+	 padding:7px 25px;
+	 border-width:medium;
+	 margin: 5px 30px;
+	 font-size: 18px;
+	 letter-spacing: 3px;
+	 text-decoration: none;
+	 border-radius: 20px;
+	 /*border-color: black;*/
+	 background-color: white;
+ }
+ .twbtn p{
+	 display: inline-block;
+	 padding-left: 16px;
+ }
+ .aboutLink{
+	 text-align: center;
+	 margin: 10px auto;
+	 padding-bottom: 25px;
+ }
+ /*コンタクト*/
+ .contact{
+	 background-image: url(../image/back03.png);
+	 background-size: cover;
+ }
+.contact h3{
+	text-align: center;
+	margin-top: 45px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+.contact h4{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+.contact p{
+text-align: center;
+margin-top: 20px;
+line-height: 22px;
+}
+.contactBox{
+	 width: 70%;
+	 margin: 10px auto 20px auto;
+ }
+
+
+
+ .contactBox .box{
+	 width:100%;
+	 background-color: #eeefef;
+	 border-color: black;
+	 border-width: 0px;
+	 font-size: 20px;
+	 letter-spacing: 3px;
+	 border-radius: 10px;
+ }
+ .contactBox .box1{
+	 height: 40px;
+
+ }
+ .contactBox p{
+	 margin: 20px 0px 3px 0px;
+	 text-align: left;
+ }
+
+ .send{
+	 font-size: 20px;
+	 /*width: 100px;
+	 height: 40px;*/
+	 background-color: black;
+	 color: white;
+	 letter-spacing: 5px;
+	 margin: 14px auto;
+	 padding: 5px 15px 5px 20px;
+	 border-radius: 10px;
+	 border-width: 0px;
+	 display: block;
+
+ }
+ /*フッター*/
+footer{
+	margin-top: 20px;
+	background-image: url(../image/back04.png);
+	background-size: cover;
+}
+.footList{
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.footList li{
+	font-size: 15px;
+	line-height: 35px;
+	float: right;
+	margin-right: 35px;
+}
+.footLogo .logo{
+	width:13%;
+}
+ /*プロダクトページ*/
+
+ /*ニュースページ*/
