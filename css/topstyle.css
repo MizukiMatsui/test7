@@ -58,7 +58,8 @@ table {
  }
 
  body {
-   font-family: "arial unicode ms";
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+
  }
 
  .whiteNon{
@@ -317,6 +318,8 @@ line-height: 22px;
 	 font-size: 20px;
 	 letter-spacing: 3px;
 	 border-radius: 10px;
+	 font-family: 'M PLUS Rounded 1c', sans-serif;
+	 color:gray;
  }
  .contactBox .box1{
 	 height: 40px;
@@ -339,6 +342,7 @@ line-height: 22px;
 	 border-radius: 10px;
 	 border-width: 0px;
 	 display: block;
+	 font-family: 'M PLUS Rounded 1c', sans-serif;
 
  }
  /*フッター*/
