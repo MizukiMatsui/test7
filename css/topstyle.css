@@ -71,20 +71,16 @@ table {
  .whiteNon:active{
    color: white;
  }
-
- .btnMore{
-   font-size: 20px;
-   padding: 5px 50px;
-   width:160px;
-   /*margin: 0 auto;*/
-   background-color: black;
-   letter-spacing: 5px;
-   border-radius: 50px;
+ .blackNon{
+   color: black;
+ }
+ .blackNon:hover{
+   color: black;
+ }
+ .blackNon:active{
+   color: black;
  }
 
- .btnMore .fas{
-   font-size: 25px;
- }
 
 .more {
 	display: inline-block;
@@ -96,7 +92,6 @@ table {
 
  /*トップ*/
  .top{
-   height:700px;
    background-color: blue;
    background-image:url(../image/eye_back01.png);
    background-size: cover;
@@ -116,6 +111,18 @@ table {
   width: 300px;
   margin-top: 30px;
  }
+ .tw_katakoto{
+	 width:280px;
+	 padding-bottom: : 10px;
+ }
+ .top p{
+	 font-size: 18px;
+	 padding-top: 200px ;
+	 color: white;
+ }
+
+
+
  /*ニュース*/
 .news {
 	background-image: url(../image/back01.png);
@@ -135,7 +142,7 @@ table {
   padding-left:15px;
 }
 .news p{
-  font-size: 20px;
+  font-size:17;
 }
 .date{
   padding:0 10px;
@@ -146,6 +153,7 @@ table {
 .title{
   position: relative;
   bottom: 5px;
+	text-decoration: none;
 }
 
 .newsframe{
@@ -320,6 +328,7 @@ line-height: 22px;
 	 border-radius: 10px;
 	 font-family: 'M PLUS Rounded 1c', sans-serif;
 	 color:gray;
+	 padding-left: 20px;
  }
  .contactBox .box1{
 	 height: 40px;
