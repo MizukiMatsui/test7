@@ -7,8 +7,13 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>KATAKOTO カタコト</title>
   </head>
+
   <body>
-    <header class="top">
+
+    <header id="top">
+      <video playsinline autoplay muted loop>
+        <source src="image/web_back.mp4" type="video/mp4">
+      </video>
       <div class="frame">
         <div class="copy">
           <h1>デジタル ・アナログの</h1>
@@ -16,29 +21,30 @@
         </div>
         <img src="image/eye_logo01.png" alt="KATAKOTO" class="logo">
         </div>
-        <p>最新情報はツイッターで！</p>
+          <p>最新情報はツイッターで！</p>
         </div>
-        <a href="#">
-          <img src="image/btn_tw.png" alt="katakoto_std" class="tw_katakoto">
+        <a href="https://twitter.com/katakoto_std" target="_blank">
+          <img src="image/btn_tw.png" alt="katakoto_std" class="tw_katakoto" >
         </a>
     </header>
-    <div class="news">
+
+    <div id="news">
       <div class="frame clearfix">
         <div class="newsframes">
           <a href="#" class="news1 newsframe">
-            <i class="newsCont fas fa-award"></i>
-            <p class="newsCont date">2019.11</p>
-            <p class="newsCont title">異能vationジェネレーションアワード部門 企業特別賞 受賞!</p>
+            <img src="image/ex_icon_pr.png" alt="" class="news_icon">
+            <span class="newsCont date">2019.11</span>
+            <span class="newsCont title">異能vationアワード部門 企業特別賞 受賞!</span>
           </a>
           <a href="#" class="news2 newsframe">
-            <i class="newsCont fas fa-award"></i>
+            <img src="image/ex_icon_pr.png" alt="" class="news_icon">
             <p class="newsCont date">2019.12</p>
             <p class="newsCont title">ヒーローズリーグAWARD Unity賞 受賞!</p>
           </a>
           <a href="#" class="news3 newsframe">
-            <i class="newsCont fas fa-tv"></i>
+            <img src="image/ex_icon_tv.png" alt="" class="news_icon">
             <p class="newsCont date">2019.11</p>
-            <p class="newsCont title">異能vationジェネレーションアワード部門 企業特別賞 受賞!</p>
+            <p class="newsCont title">異能vationアワード部門 企業特別賞 受賞!</p>
           </a>
           <!--
           <a href="#" class="btnMore newsMore whiteNon" style="text-decoration:none;">
@@ -46,33 +52,34 @@
           </a>
           -->
         </div>
-        <a href="#" >
-          <img src="image/btn_more01.png" alt="もっとみる" class="more">
+        <a href="other/exhibition.html" >
+          <img src="image/btn_more03.png" alt="もっとみる" class="more">
         </a>
       </div>
     </div>
+
     <div class="contents">
       <div class="frame clearfix">
         <div class="tiles clearfix">
           <div class="tile tile50">
             <a href="product/inaiinai_ehon.html">
-            <img src="image/pro_inai01.png" alt="inaiinaiehon" class="thumbnail" >
-          </a>
-            <a href="product/inaiinai_ehon.html" class="blackNon">
-            <p class="title Name">いないいない絵本</p>
-            <p class="title">/</p>
-            <p class="title Year">2019</p>
+              <img src="image/pro_inai01.png" alt="inaiinaiehon" class="thumbnail" >
             </a>
-
+            <a href="product/inaiinai_ehon.html" class="blackNon">
+              <p class="title Name">いないいない絵本</p>
+              <p class="title">/</p>
+              <p class="title Year">2019</p>
+            </a>
           </div>
+
           <div class="tile tile50">
             <a href="product/inaiinai_ehon.html">
             <img src="image/pro_sm01.png" alt="spellmaster" class="thumbnail">
           </a>
             <a href="product/inaiinai_ehon.html" class="blackNon">
-            <p class="title Name">SPELL MASTER</p>
-            <p class="title">/</p>
-            <p class="title Year">2018</p>
+              <p class="title Name">SPELL MASTER</p>
+              <p class="title">/</p>
+              <p class="title Year">2018</p>
             </a>
           </div>
 
@@ -81,9 +88,9 @@
             <img src="image/pro_sl02.jpg" alt="skyletter" class="thumbnail">
           </a>
             <a href="product/inaiinai_ehon.html" class="blackNon">
-            <p class="title Name">SkyLetter</p>
-            <p class="title">/</p>
-            <p class="title Year">2019</p>
+              <p class="title Name">SkyLetter</p>
+              <p class="title">/</p>
+              <p class="title Year">2019</p>
             </a>
           </div>
 
@@ -103,14 +110,14 @@
             <img src="image/pro_pt01.jpg" alt="PAINTAR" class="thumbnail">
           </a>
             <a href="product/inaiinai_ehon.html" class="blackNon">
-            <p class="title Name">PAINTAR</p>
-            <p class="title">/</p>
-            <p class="title Year">2016</p>
+              <span class="title Name">PAINTAR</span>
+              <span class="title">/</span>
+              <span class="title Year">2016</span>
             </a>
           </div>
         </div>
-        <a href="#" >
-          <img src="image/btn_more01.png" alt="もっとみる" class="more">
+        <a href="other/product_list.html" >
+          <img src="image/btn_more03.png" alt="もっとみる" class="more">
         </a>
         <!--
         <a href="#" class="btnMore productMore whiteNon" style="text-decoration:none;">
@@ -163,20 +170,15 @@
       </div>
     </div>
     <footer>
-      <div class="frame">
-      <div class="footLogo">
-        <img src="image/foot_logo.png" alt="KATAKOTO" class="logo">
-      </div>
-
+      <div class="frame" >
+        <a class="footLogo" href="index.html">
+          <img src="image/foot_logo.png" alt="KATAKOTO" class="logo">
+        </a>
         <ul class="footList clearfix">
           <li>リンク</li>
-          <li><a href="ather/privacy.html" class="blackNon">プライバシーポリシー</a></li>
+          <li><a href="other/privacy.html" class="blackNon">プライバシーポリシー</a></li>
         </ul>
       </div>
-
-      </div>
-
-    </footer>
-
+     </footer>
   </body>
 </html>
