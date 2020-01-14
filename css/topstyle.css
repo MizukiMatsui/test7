@@ -139,7 +139,10 @@ p{
 
 
 #top .copy{
-   padding-top: 270px;
+   padding-top: 180px;
+	 width:400px;
+	 display: block;
+	 margin: 0 auto;
 }
 
 #top h1{
