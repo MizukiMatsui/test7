@@ -113,6 +113,11 @@ p{
 	margin: 0 auto;
 	padding-top: 80px;
 }
+
+.app_download{
+	width:300px;
+	margin-bottom: 100px;
+}
  /*トップ*/
 #top{
    /*background-color: blue;*/
@@ -223,7 +228,7 @@ color: black;
   background-color:#7bc2ce;
 }
 .news2{
-  background-color:#7bc2ce;
+  background-color:#eeefef;
 }
 .news3{
   background-color:#eeefef;
@@ -495,35 +500,42 @@ footer{
 }
 
 /*コンテンツ*/
+
 /*トップ*/
-.top{
-	background-image:url(../image/pro_inai02.png);
-	background-position: bottom;
-	background-size: cover;
-	color: white;
+
+.topImage{
+width:100%;
+height:480px;
+object-fit: cover;
+object-position: 100% 50%;
+position: relative;
 }
-.topBlock{
-	padding: 40px;
+.productTopBlock{
+	position: absolute;
+	top:40px;
+	left:50px;
 }
-.top h1{
-	font-size: 35px;
-	padding-top: 140px;
-	padding-bottom: 100px;
-	letter-spacing: 4px;
-}
-.top .proLogo{
+.productTop .proLogo{
 	display: block;
-	width:430px;
-	padding-top: 140px;
-	padding-bottom: 100px;
+	width:340px;
+	padding-top: 110px;
+	padding-bottom: 80px;
 }
-.top h2{
+
+.productTop h2{
 	font-size: 18px;
 	padding-top:15px;
+	color: white;
 }
-.back{
+.productTop .back{
 	width:80px;
 }
+
+
+
+
+
+
 /*ボディー*/
 #product .frame{
 	width:70%;
@@ -555,6 +567,9 @@ footer{
 	margin-top: 20px;
 	/*background-color: #43adc5;*/
 }
+#product h2{
+line-height: 20px;
+}
 #product h4{
 	font-size: 20px;
 	padding: 45px 0px 10px 0px;
@@ -572,6 +587,11 @@ footer{
 		width: 18px;
 		padding-right: 3px;
 }
+#product .howto{
+	width:400px;
+	margin: 50px auto 0px auto;
+	display: block;
+}
 
 /*プロダクト一覧*/
 #product_list .type{
@@ -579,19 +599,28 @@ footer{
 	padding: 40px 0px 15px 0px;
 }
 
-/*
+
 #product_list{
-	background-image: url(../image/back01.png);
+	background-image: url(../image/back02.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
-*/
+
 #product_list .frame{
 }
 
 #product_list .back2 {
 	width: 80px;
 	padding: 40px 0px 50px 0px;
+}
+#product_list .tile{
+	float: left;
+}
+#product_list .thumbnail{
+	width:100%;
+	height:230px;
+	border-radius: 10px;
+	object-fit: cover;
 }
 .content .title{
   font-size: 20px;
