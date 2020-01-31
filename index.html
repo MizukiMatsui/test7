@@ -12,6 +12,17 @@
 
   <body>
 
+    <div class="loading"><img src="image/Preloader_2.gif"/></div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+    <!-- この部分にプログラムの内容を記述します -->
+    $(window).on('load', function(){
+	  $('.loading').fadeOut();
+    });
+    </script>
+
     <header id="top">
       <video playsinline muted autoplay loop>
         <source src="image/web_back.m4v" type="video/mp4">
@@ -33,17 +44,17 @@
           <a href="https://arise.meson.tokyo/" class="news1 newsframe">
             <img src="image/ex_icon_pr.png" alt="" class="news_icon">
             <span class="newsCont date">2019.12</span>
-            <span class="newsCont title">Spatial Experience Summit ARISE#2 出展</span>
+            <span class="newsCont title">xR Summit ARISE#2 出展</span>
           </a>
           <a href="https://hl2019.we-are-ma.jp/award/" class="news2 newsframe">
             <img src="image/ex_icon_pr.png" alt="" class="news_icon">
             <span class="newsCont date">2019.12</span>
-            <span class="newsCont title">ヒーローズリーグAWARD Unity賞 受賞</span>
+            <span class="newsCont title">ヒーローズAWARD Unity賞</span>
           </a>
           <a href="http://www.ntv.co.jp/nextcreators/backnumber/creator88.html" class="news3 newsframe">
             <img src="image/ex_icon_tv.png" alt="" class="news_icon">
             <span class="newsCont date">2019.06</span>
-            <span class="newsCont title">日本テレビ「nextクリエイターズ」出演</span>
+            <span class="newsCont title">日テレ nextクリエイターズ 出演</span>
           </a>
 
         </div>
